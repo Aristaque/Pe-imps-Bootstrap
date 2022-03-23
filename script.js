@@ -18,8 +18,8 @@ function validaNome() {
 function validaSugestao() {
     let txtSugestao = document.querySelector('#txtSugestao')
 
-    if (sugestao.value.length >= 5) {
-        txtSugestao.innerHTML = 'Texto é muito grande, digite no máximo 100 caracteres'
+    if (sugestao.value.length <= 5) {
+        txtSugestao.innerHTML = 'Digite o nome completo da personalidade que gostaria de conhecer'
         txtSugestao.style.color = 'red'
         txtSugestao.style.display = 'block'
     } else {

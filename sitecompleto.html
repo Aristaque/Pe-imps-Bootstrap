@@ -62,7 +62,7 @@
                     <a class="nav-link" href="#apresentacao">Apresentação</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#invencoes">Contato</a>
+                    <a class="nav-link" href="#contato">Contato</a>
                 </li>
             </ul>
         </div>
@@ -240,7 +240,7 @@
     <hr>
     <br>
     <!-- Formulario -->
-    <div class="container">
+    <div class="container" id="contato">
         <h3>Gostaria de ver alguma biografia aqui? Deixe sua sugestão!</h3>
         <form>
             <div>
@@ -252,9 +252,7 @@
                     <textarea name="sugestao" id="sugestao" cols="60" rows="5" onkeyup="validaSugestao()"></textarea>
                     <div id='txtSugestao'></div>
                     <br>
-                    <br>
-
-                    <button type="button" class="btn btn-outline-secondary">Enviar</button>
+                    <button type="button" class="btn btn-outline-secondary" onclick="enviar()">Enviar</button>
                 </form>
                 <!--/ Formulario -->
             </div>
@@ -288,7 +286,8 @@
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
                 crossorigin="anonymous"></script>
-            <script src="/script.js"></script>
+
+            <script src="./script.js"></script>
 
             <!-- Option 2: Separate Popper and Bootstrap JS -->
             <!--
